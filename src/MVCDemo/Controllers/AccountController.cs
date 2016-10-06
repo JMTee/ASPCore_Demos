@@ -31,7 +31,7 @@ namespace MVCDemo.Controllers
         [HttpPost]
         public IActionResult Login(LoginViewModel lr)
         {
-            if (_accountService.authenticateLogin(lr) >  0)
+            if (_accountService.authenticateLogin(lr) >  0 && ModelState.IsValid)
             {
                 return View(lr);
             }
