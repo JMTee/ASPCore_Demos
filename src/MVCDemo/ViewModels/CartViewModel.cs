@@ -10,7 +10,8 @@ namespace MVCDemo.ViewModels
         public CartViewModel()
         {
             ProductName = "Vaseline";
-            ProductDescription = "It's a Freakin Shampoo";        }
+            ProductDescription = "It's a Freakin Shampoo";
+        }
         public string ProductName { get; set; }
         public string ProductDescription { get; set; }
     }
