@@ -1,0 +1,8 @@
+﻿@model HTML_CSS_JS_Demo.ViewModels.CartViewModel
+<h1>These are my purchased items</h1>
+
+@foreach (var purchase in Model.ProductPurchases)
+{
+    <h2>@purchase.ProductName</h2>
+    <p>@purchase.ProductDescription</p>
+}

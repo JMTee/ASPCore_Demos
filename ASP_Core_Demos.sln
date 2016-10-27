@@ -14,6 +14,8 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MVCDemo", "src\MVCDemo\MVCD
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DIDemo", "src\DIDemo\DIDemo.xproj", "{43C11B3A-0477-4106-A954-8A2E22781703}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HTML_CSS_JS_Demo", "src\HTML_CSS_JS_Demo\HTML_CSS_JS_Demo.xproj", "{843F0D6B-2B78-4B9D-A201-E812AD9A0918}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +30,10 @@ Global
 		{43C11B3A-0477-4106-A954-8A2E22781703}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43C11B3A-0477-4106-A954-8A2E22781703}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43C11B3A-0477-4106-A954-8A2E22781703}.Release|Any CPU.Build.0 = Release|Any CPU
+		{843F0D6B-2B78-4B9D-A201-E812AD9A0918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{843F0D6B-2B78-4B9D-A201-E812AD9A0918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{843F0D6B-2B78-4B9D-A201-E812AD9A0918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{843F0D6B-2B78-4B9D-A201-E812AD9A0918}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -35,5 +41,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{4A404610-40BE-49AA-A14C-9096326D5337} = {FB597B5F-7060-4D7D-8DB0-F5ADA282D67C}
 		{43C11B3A-0477-4106-A954-8A2E22781703} = {FB597B5F-7060-4D7D-8DB0-F5ADA282D67C}
+		{843F0D6B-2B78-4B9D-A201-E812AD9A0918} = {FB597B5F-7060-4D7D-8DB0-F5ADA282D67C}
 	EndGlobalSection
 EndGlobal

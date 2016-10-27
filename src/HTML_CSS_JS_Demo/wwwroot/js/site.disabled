@@ -1,0 +1,44 @@
+﻿// Write your Javascript code.
+
+//Global Javascript Code
+//var emailInput = document.getElementById("Email");
+
+//emailInput.onmouseenter = function () {
+//    emailInput.style = "background-color:gray; color:white";
+//}
+//emailInput.onmouseleave = function () {
+//    emailInput.style = "";
+//}
+
+// End - Global Javascript Code
+
+
+// Function scope level JS Code
+//function startup() {
+//    var emailInput = document.getElementById("Email");
+
+//    emailInput.onmouseenter = function () {
+//        emailInput.style = "background-color:gray; color:white";
+//    }
+//    emailInput.onmouseleave = function () {
+//        emailInput.style = "";
+//    }
+
+//}
+//startup();
+
+//End- Function scope level JS Code
+
+// Immediately Invoked Function Expression (IFFE) code
+
+(function () {
+    var emailInput = document.getElementById("Email");
+
+    emailInput.onmouseenter = function () {
+        emailInput.style = "background-color:gray; color:white";
+    }
+    emailInput.onmouseleave = function () {
+        emailInput.style = "";
+    }
+
+})();
