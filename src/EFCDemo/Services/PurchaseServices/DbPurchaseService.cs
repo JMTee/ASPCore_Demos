@@ -20,7 +20,7 @@ namespace EFCDemo.Services
 
         public ICollection<Purchase> getMyPurchases(Account Ac)
         {
-            throw new NotImplementedException();
+            return _demoContext.Purchases.Where(x => x.accountIdFK == Ac.AccountId).ToList();
         }
     }
 }

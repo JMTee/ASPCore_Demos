@@ -41,7 +41,8 @@ namespace EFCDemo
             services.AddMvc();
 
             // inject custom services
-            services.AddScoped<IAccountService,TempAccountService>();
+            // currently using services that communicate to our db.
+            services.AddScoped<IAccountService,DbAccountService>();
             services.AddScoped<IPurchaseService, DbPurchaseService>();
 
             //register democontext
